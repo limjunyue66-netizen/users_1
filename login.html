@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <p>Use your username or email address.</p>
+    <form action="login.php" method="post">
+        <p>
+            <label for="login_id">Username or email</label><br>
+            <input id="login_id" name="login_id" type="text" autocomplete="username" required>
+        </p>
+        <p>
+            <label for="password">Password</label><br>
+            <input id="password" name="password" type="password" autocomplete="current-password" required>
+        </p>
+        <button type="submit">Sign in</button>
+    </form>
+    <p><a href="register.html">Create account</a></p>
+</body>
+</html>
